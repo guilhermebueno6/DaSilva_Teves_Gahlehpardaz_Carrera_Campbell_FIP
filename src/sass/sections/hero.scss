@@ -1,0 +1,63 @@
+.hero {
+  height: 700px;
+  padding: 0 15vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(../assets/man-wearing-red-sweatshirt-and-black-pants-leaning-on-the-845434.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-family: $poppins;
+    font-weight: 600;
+    font-size: 4rem;
+    color: white;
+    margin-top: -80px;
+  }
+
+  p {
+    font-family: $rubik;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: white;
+  }
+
+  button {
+    width: 130px;
+    height: 45px;
+    font-family: $poppins;
+    font-size: 0.9em;
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+    
+    &.learn-more {
+      background-color: $warm-red;
+      border: none;
+      margin-right: 10px;
+
+      &:hover{
+        background-color: $dark-red;
+      }
+    }
+
+    &.contact-us {
+      background-color: transparent;
+      border: 1px solid white;
+      margin-left: 10px;
+
+      &:hover{
+        background-color: white;
+        color: black;
+        border: none;
+      }
+    }
+
+
+  }
+}

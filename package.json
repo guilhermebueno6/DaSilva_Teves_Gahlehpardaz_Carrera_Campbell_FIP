@@ -1,0 +1,32 @@
+{
+  "name": "dasilva_teves_gahlehpardaz_carrera_campbell_fip",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermebueno6/DaSilva_Teves_Gahlehpardaz_Carrera_Campbell_FIP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermebueno6/DaSilva_Teves_Gahlehpardaz_Carrera_Campbell_FIP/issues"
+  },
+  "homepage": "https://github.com/guilhermebueno6/DaSilva_Teves_Gahlehpardaz_Carrera_Campbell_FIP#readme",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "^4.1.2",
+    "@vue/cli-plugin-vuex": "^4.1.2",
+    "@vue/cli-service": "^4.1.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

@@ -1,0 +1,29 @@
+//Importing variables
+@import "_vars";
+
+//Importing layout
+@import "layout/navbar";
+
+//Importing sections
+@import "sections/hero";
+@import "sections/services";
+@import "sections/about.scss";
+@import "sections/locate.scss";
+
+//Importing components
+@import "components/sidebar";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  section {
+    width: 70vw;
+  }
+}
