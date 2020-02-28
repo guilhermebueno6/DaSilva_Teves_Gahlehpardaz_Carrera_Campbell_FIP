@@ -1,12 +1,12 @@
 <template>
-  <div class="home">
+  <div class="container">
     <section class="hero">
       <h1 class="title">
-        This is the title
+        Get The Facts
       </h1>
-      <h2 class="subtitle">
-        This is the subtitle
-      </h2>
+      <p class="subtitle">
+        9:00AM to 5:00PM <br> Monday to Friday
+      </p>
       <div class="buttons">
         <button class="learn-more">
           Learn More
@@ -17,17 +17,24 @@
       </div>
     </section>
     <InfoCards />
+    <About />
+    <Locate />
   </div>
 </template>
 <script>
   import InfoCards from '../components/InfoCards';
+  import About from '../components/About';
+  import Locate from '../components/Locate';
   export default {
     name: 'home',
     components: {
-      InfoCards
+      InfoCards,
+      About,
+      Locate
     }
   }
 </script>
+
   
 
 

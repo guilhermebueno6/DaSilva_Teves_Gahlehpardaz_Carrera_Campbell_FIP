@@ -1,0 +1,71 @@
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .navbar-contact {
+    width: 70vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    .contact-left, .contact-right {
+
+      div {
+        padding: 10px 10px;
+        border-left: 1px solid $light-grey;
+
+        p {
+          font-family: $poppins;
+          font-size: 13px;
+          color: $blue-haze;
+        }
+      }
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+
+      i {
+        padding: 0px 8px;
+        color: $blue-haze;
+      }
+    }
+
+  }
+
+  .navbar-main {
+    width: 70vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+
+    ul {
+
+      li {
+        display: inline;
+        padding: 0 10px;
+
+        a {
+          font-family: $poppins;
+          font-size: 16px;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: black;
+          padding: 5px 10px;
+
+          &.active {
+            color: $columbia-blue;
+          }
+
+          &:hover {
+            color: $blue-haze;
+          }
+        }
+      }
+      
+    }
+  }
+
+}

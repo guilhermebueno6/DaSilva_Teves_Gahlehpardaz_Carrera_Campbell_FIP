@@ -1,0 +1,22 @@
+#locate {
+  background-image: url(../assets/Map.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  margin-top: 150px;
+  padding: 15vw;
+
+  h2 {
+    margin-top: -325px;
+    text-align: center;
+    font-family: $poppins;
+    font-weight: 600;
+  }
+
+  p {
+    text-align: center;
+    font-family: $rubik;
+    font-size: .95em;
+  }
+}
