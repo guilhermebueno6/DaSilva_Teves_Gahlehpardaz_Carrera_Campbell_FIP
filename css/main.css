@@ -7,3 +7,15 @@ html,body{
     margin: 0;
     padding: 0;
 }
+
+.gm-style-iw-c{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif!important; 
+    font-size: 20px!important;
+    background-color: #e9cece!important;
+  
+    color: white!important; /*font color on the marker dialog box*/
+
+}
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track, .gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece,.gm-style .gm-style-iw-t::after, .gm-style-iw-c  {
+    background: #e9cece!important; /*Background color for the dialog boxes in the maps markers*/
+}
