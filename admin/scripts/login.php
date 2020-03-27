@@ -1,4 +1,5 @@
 <?php
+
 //TODO: encrypt user input to match what we have on the database
 require_once 'firstTime.php';
 require_once 'timeOut.php';
@@ -161,12 +162,14 @@ function logout($id){
                 ':id'=>$id
             )
             );
+            session_destroy();
             redirect_to('admin_login.php');
-        
+            
     }else{
+        session_destroy();
         redirect_to('admin_login.php');
-
+        
     }
-    session_destroy();
+   
     
 }

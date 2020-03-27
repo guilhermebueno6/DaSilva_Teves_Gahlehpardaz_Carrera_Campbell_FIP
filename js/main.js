@@ -1,6 +1,6 @@
 
   function initMap() {
-    var safeSites = [
+    var safeSites = [//For this well need to fetch it on the php for the markers
       ['Toronto Public Health',43.656591, -79.379389, 1],
       ['Fred Victor Housing', 43.653637, -79.372980, 2],
       ['South Riverdale Community Health Centre', 43.661130, -79.339153, 3],
@@ -146,9 +146,9 @@
       }
     })(marker, i));
   }
-  let pos;
-  pos = {
-    lat: position.coords.latitude,
-    lng: position.coords.longitude
-    }
+    // let pos;
+    // pos = {
+    //   lat: position.coords.latitude,
+    //   lng: position.coords.longitude
+    //   }
   }

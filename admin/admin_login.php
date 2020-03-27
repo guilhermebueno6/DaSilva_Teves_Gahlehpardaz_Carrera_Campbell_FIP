@@ -1,4 +1,5 @@
 <?php
+
 require_once '../load.php';
 require_once 'scripts/encryption.php';
 $ip = $_SERVER['REMOTE_ADDR'];

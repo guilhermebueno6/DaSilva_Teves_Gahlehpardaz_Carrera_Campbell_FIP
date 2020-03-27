@@ -2,7 +2,7 @@
 require_once '../load.php';
 confirm_logged_in();
 
-$user_id = $_SESSION['user_id'] 
+$user_id = $_SESSION['user_id'] ;
 
 $userList = getAllUsers();
 

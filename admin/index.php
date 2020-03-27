@@ -1,6 +1,7 @@
 <?php
     require_once '../load.php';
     confirm_logged_in();
+    
 
 
 ?>
@@ -20,7 +21,13 @@
 <a href="admin_logout.php">Log out</a>
 <a href="admin_createuser.php">Create User</a>
 <a href="admin_edituser.php">Edit my Account</a>
-<a href="admin_deleteuser.php">Delete User</a>
+<a href="admin_deleteuser.php">Delete User</a><br><br>
+<a href="admin_addmarkers.php">Add Markers</a>
+<a href="admin_editmarkers.php">Edit Markers</a>
+<a href="admin_deleteMarker.php">Delete Marker</a><br><br>
+<a href="">Add Event</a>
+<a href="">Edit Event</a>
+<a href="">Delete Event</a>
 
     
 </body>
