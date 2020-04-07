@@ -2,7 +2,7 @@
 ![RHA Logo](images/marker.png)
 ## RHA Connection FIP.
 
-This is CMS streaming project
+This is the Aids Awareness Project.
 
 ## Getting Started
 Download repo, Add Database (db_fip) to Phpmyadmin and run npm run serve - Should output to Localhost:8080
