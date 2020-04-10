@@ -9,28 +9,34 @@
       </p>
       <div class="buttons">
         <button class="learn-more">
-          Learn More
+          <a href="#about">Learn More</a>
         </button>
         <button class="contact-us">
-          Contact Us
+          <a href="#contact">Contact Us</a>
         </button>
       </div>
     </section>
     <InfoCards />
     <About />
     <Locate />
+    <Video />
+    <Contact />
   </div>
 </template>
 <script>
   import InfoCards from '../components/InfoCards';
   import About from '../components/About';
   import Locate from '../components/Locate';
+  import Video from '../components/Video';
+  import Contact from '../components/Contact';
   export default {
     name: 'home',
     components: {
       InfoCards,
       About,
-      Locate
+      Locate,
+      Video,
+      Contact
     }
   }
 </script>

@@ -1,0 +1,92 @@
+#contact {
+  background-image: url(../assets/Path-1081.svg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 570px;
+  padding: 0 15vw;
+  margin-top: 200px;
+
+  i {
+    padding: 10px 10px;
+    color: $blue-haze;
+  }
+
+  .social-card {
+    margin-top: -120px;
+  }
+
+  &>h2 {
+    margin-top: 160px;
+    color: white;
+  }
+
+  &>p {
+    margin-bottom: 60px;
+    color: white;
+  }
+
+  h2 {
+    font-family: $poppins;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-family: $rubik;
+    font-size: .90em;
+    text-align: center;
+  }
+
+  label {
+    font-family: $rubik;
+    font-size: .90em;
+    color: #ED6663;
+  }
+
+  .contact-card {
+    display: flex;
+    background-color: white;
+    padding: 50px;
+
+    -webkit-box-shadow: 0 15px 22px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 15px 22px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 22px 5px rgba(0, 0, 0, 0.15);
+
+    img {
+      width: 250px;
+      height: 293px;
+    }
+
+    form {
+      padding: 0 20px;
+      width: 100%;
+
+      h2 {
+        text-align: left;
+        color: #ED6663;
+        margin-top: -8px;
+        margin-bottom: 6px;
+      }
+
+      input {
+        border: none;
+        border-bottom: 1px solid #E3EEFF;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+
+      button {
+        background-color: #EF3E3C;
+        color: white;
+        font-family: $poppins;
+        font-size: .90em;
+        border: none;
+        width: 100px;
+        height: 35px;
+      }
+    }
+
+  }
+}
