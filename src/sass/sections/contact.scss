@@ -45,6 +45,17 @@
     color: #ED6663;
   }
 
+  input {
+    font-family: $rubik;
+    font-size: .90em;
+  }
+
+  form span {
+    font-family: $rubik;
+    font-size: .90em;
+    margin-left: 10px;
+  }
+
   .contact-card {
     display: flex;
     background-color: white;
