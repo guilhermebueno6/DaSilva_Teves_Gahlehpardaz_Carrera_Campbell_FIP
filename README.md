@@ -1,5 +1,5 @@
 
-![RHA Logo](images/marker.png)
+![RHA Logo](src/assets/logo.svg)
 ## RHA Connection FIP.
 
 This is the Aids Awareness Project.
