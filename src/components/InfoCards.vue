@@ -8,7 +8,7 @@
   </section>
 </template>
 <script>
-import InfoCard from '@/components/InfoCard'; 
+import InfoCard from './partials/InfoCard'; 
 export default {
   name: 'InfoCards',
   components: {

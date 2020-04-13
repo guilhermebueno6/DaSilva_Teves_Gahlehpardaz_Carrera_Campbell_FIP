@@ -11,6 +11,15 @@ nav {
 
     .contact-left, .contact-right {
 
+      a {
+        text-decoration: none;
+        color: $blue-haze;
+      }
+
+      .linkedin {
+        border-right: 1px solid $light-grey;
+      }
+
       div {
         padding: 10px 10px;
         border-left: 1px solid $light-grey;
@@ -38,8 +47,13 @@ nav {
   .navbar-main {
     width: 70vw;
     display: flex;
-    justify-content: flex-end;
-    padding: 20px 0;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+
+    img {
+      width: 125px;
+    }
 
     ul {
 

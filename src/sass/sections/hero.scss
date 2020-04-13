@@ -1,12 +1,13 @@
 .hero {
-  height: 700px;
+  min-height: 550px;
+  height: 80vh;
   padding: 0 15vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: url(../assets/man-wearing-red-sweatshirt-and-black-pants-leaning-on-the-845434.jpg);
-  background-position: center center;
+  background-image: url(../assets/Group-1277.jpg);
+  background-position: center right;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -35,6 +36,11 @@
     color: white;
     margin-top: 50px;
     cursor: pointer;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
     
     &.learn-more {
       background-color: $warm-red;
@@ -53,8 +59,11 @@
 
       &:hover{
         background-color: white;
-        color: black;
         border: none;
+
+        a {
+          color: black;
+        }
       }
     }
 

@@ -3,12 +3,16 @@
 
 //Importing layout
 @import "layout/navbar";
+@import "layout/footer";
 
 //Importing sections
 @import "sections/hero";
 @import "sections/services";
 @import "sections/about.scss";
 @import "sections/locate.scss";
+@import "sections/video.scss";
+@import "sections/contact.scss";
+@import "sections/login.scss";
 
 //Importing components
 @import "components/sidebar";
