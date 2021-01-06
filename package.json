@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/guilhermebueno6/DaSilva_Teves_Gahlehpardaz_Carrera_Campbell_FIP#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "emailjs-com": "^2.4.1",
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",
